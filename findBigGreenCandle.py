@@ -53,7 +53,7 @@ def getKlines(timeFrame, token):
 def precent(a, b):
     return (float(b) - float(a)) / float(a) * 100
 
-def checkTimerToStrat():
+def checkTimerToStart():
     while True:
         _time = datetime.datetime.now().time()
         #print(_time)
